@@ -134,3 +134,5 @@ while running:
     elif player.get_hp() == 0:
         print(bcolors.FAIL + "Your enemy has defeated you!" + bcolors.ENDC)
         running = False
+
+# Test of GitHub push and to gain experience with Version Control in PyCharm
