@@ -107,7 +107,7 @@ class Person:
             current_hp = hp_string
 
         print("                         __________________________________________________")
-        print(bcolors.BOLD + str(self.name) + ":       " + current_hp + "|" + bcolors.FAIL
+        print(bcolors.BOLD + str(self.name) + ":       " + current_hp + bcolors.ENDC + "|" + bcolors.FAIL
               + hp_bar + bcolors.ENDC + "|")
 
 
@@ -165,6 +165,6 @@ class Person:
             current_mp = mp_string
 
         print("                         _________________________               __________")
-        print(bcolors.BOLD + str(self.name) + ":         " + current_hp + "|" + bcolors.OKGREEN
-              + hp_bar + bcolors.ENDC + "|      " + bcolors.BOLD + current_mp + "|" + bcolors.OKBLUE + mp_bar + bcolors.ENDC + "|")
+        print(bcolors.BOLD + str(self.name) + ":         " + current_hp + bcolors.ENDC + "|" + bcolors.OKGREEN
+              + hp_bar + bcolors.ENDC + "|      " + bcolors.BOLD + current_mp + bcolors.ENDC + "|" + bcolors.OKBLUE + mp_bar + bcolors.ENDC + "|")
 

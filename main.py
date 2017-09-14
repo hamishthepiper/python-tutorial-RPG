@@ -72,6 +72,7 @@ while running:
             player1.choose_magic()
             magic_choice = int(input("        Choose magic: ")) -1
 
+            #Uses "0" as an option to go back in the menu
             if magic_choice == -1:
                 continue
 
@@ -98,6 +99,7 @@ while running:
             player1.choose_items()
             item_choice = int(input("        Choose item: ")) -1
 
+            #Uses "0" as an option to go back in the menu
             if item_choice == -1:
                     continue
 
@@ -137,7 +139,11 @@ while running:
 
 
     players[target].take_damage(enemy_dmg)
-    print(enemy.name, "attacks", players.name, "for", enemy_dmg, "points of damage.")
+    '''
+    Need to find a way to specify what the enemy's target was and what kind of damage they took. Possibly use a function that would be called from
+        print(players.name)
+    '''
+    print(enemy.name, "attacks for", enemy_dmg, "points of damage.")
 
     print("-----------------")
 
