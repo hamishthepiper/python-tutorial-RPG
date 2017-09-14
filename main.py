@@ -111,7 +111,7 @@ while running:
             elif item.type == "elixer":
                 player.hp = player.maxhp
                 player.mp = player.maxmp
-                print(bcolors.OKGREEN + "\n"  + item.name + " fully restores HP/MP" + bcolors.ENDC)
+                print(bcolors.OKGREEN + "\n" + item.name + " fully restores HP/MP" + bcolors.ENDC)
             elif item.type == "attack":
                 enemy.take_damage(item.prop)
                 print(bcolors.FAIL + "\n" + player.name + "'s " + item.name + " deals", enemy.name, str(item.prop),
@@ -136,3 +136,4 @@ while running:
         running = False
 
 # Test of GitHub push and to gain experience with Version Control in PyCharm
+

@@ -86,3 +86,4 @@ class Person:
         print(bcolors.BOLD + str(self.name) + "         " + str(self.hp) + "/" + str(self.maxhp)
               + "|" + bcolors.OKGREEN + "█████████           " + bcolors.ENDC + "|    " + bcolors.BOLD
               + str(self.mp) + "/" + str(self.maxmp) + "|" + bcolors.OKBLUE + "██████" + bcolors.ENDC + "|")
+
