@@ -83,7 +83,7 @@ class Person:
 
     def get_stats(self):
         print("                         _________________________           __________")
-        print(bcolors.BOLD + str(self.name) + "         " + str(self.hp) + "/" + str(self.maxhp)
-              + "|" + bcolors.OKGREEN + "█████████           " + bcolors.ENDC + "|    " + bcolors.BOLD
-              + str(self.mp) + "/" + str(self.maxmp) + "|" + bcolors.OKBLUE + "██████" + bcolors.ENDC + "|")
+        print(bcolors.BOLD + str(self.name) + ":         " + str(self.hp) + "/" + str(self.maxhp)
+              + "|" + bcolors.OKGREEN + "█████████                " + bcolors.ENDC + "|    " + bcolors.BOLD
+              + str(self.mp) + "/" + str(self.maxmp) + "|" + bcolors.OKBLUE + "██████    " + bcolors.ENDC + "|")
 
