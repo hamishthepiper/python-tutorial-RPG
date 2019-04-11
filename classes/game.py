@@ -195,8 +195,8 @@ class Person:
         else:
             return spell, magic_dmg
 
-    def enemy_auto_heal(self):
-        magic_choice =
-        spell = self.magic[magic_choice]
-        magic_dmg = spell.generate_damage()
-        return spell, magic_dmg
+#    def enemy_auto_heal(self):
+#        magic_choice =
+#        spell = self.magic[magic_choice]
+#        magic_dmg = spell.generate_damage()
+#        return spell, magic_dmg
